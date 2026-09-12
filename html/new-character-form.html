@@ -30,6 +30,48 @@
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>
-        </nav> 
+        </nav>
+        <!--Create input field-->
+        <div class="mx-2">
+            <h3>Adding a new character to CharacterCosmos is as easy as 1, 2, 3!</h3>
+            <h5>Update the below input fields with some information about the character you want to add. Don't be shy, give us all the details!</h1>
+        </div>
+        <form class="row row-cols-2 g-3 mt-3 mx-5">
+            <div class="col mb-3">
+                <label for="name-input" class="form-label">Name</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="name-input" placeholder="Sal Fisher">
+                </div>
+            </div>
+            
+            <div class="col mb-3">
+                <label for="universe-input" class="form-label">Universe</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="universe-input" placeholder="Sally Face">
+                </div>
+            </div>
+
+            <div class="col mb-3">
+                <label for="role-input" class="form-label">Role</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="role-input" placeholder="Protagonist">
+                </div>
+            </div>
+            
+            <div class="col mb-3">
+                <label for="role-input" class="form-label">Image URL</label>
+                <div class="input-group">
+                    <span class="input-group-text" id="basic-addon3">https://</span>
+                    <input type="url" class="form-control" id="image-input">
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="role-input" class="form-label">Character Description</label>
+                <div class="input-group">
+                    <textarea class="form-control"></textarea>
+                </div>
+            </div>
+        </form>
     </body>
 </html>
